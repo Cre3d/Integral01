@@ -3,7 +3,7 @@ public class Func {
     /**
      *  Funkcja
      *
-     * @return - Funkcja, można dowolnie modyfikować.
+     * @return - Funkcja, można modyfikować.
      */
 
     public static double func(double x){
