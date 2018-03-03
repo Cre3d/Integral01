@@ -14,6 +14,8 @@ public class Menu {
         System.out.println("Kalkulator całkowania");
         System.out.println("_____________________");
 
+
+        // Test na sztywno
         integral.setXp(2);
         integral.setXk(5);
         integral.setN(3);
