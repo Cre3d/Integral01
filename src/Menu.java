@@ -11,17 +11,21 @@ public class Menu {
     {
 
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Kalkulator całkowania");
         System.out.println("_____________________");
 
-
-        // Test na sztywno
-        integral.setXp(2);
-        integral.setXk(5);
-        integral.setN(3);
+        System.out.println("1. Ustaw początek przedziału całkowania.");
+        integral.setXp(scanner.nextDouble());
+        System.out.println("2. Ustaw koniec przedziału całkowania.");
+        integral.setXk(scanner.nextDouble());
+        System.out.println("3. Ustaw ilość podziału.");
+        integral.setN(scanner.nextInt());
 
         return integral;
 
     }
+
+
 
 }
