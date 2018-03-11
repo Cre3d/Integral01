@@ -3,8 +3,10 @@ public class Integral {
     double xp;
     double xk;
     int n;
-
-     public double getXp() {
+/**
+ *  Setters and Getters
+ */
+    public double getXp() {
         return xp;
     }
 
@@ -36,7 +38,9 @@ public class Integral {
      * @param n - Dokładność obliczeń; N ilość 'dzieleń' przedziału
      * @return - zwraca wynik całki
      */
-    private double integral(double xp, double xk, int n)
+
+
+    private double integral(double xp, double xk, int n) // Metoda prostokątów
     {
         double integral = 0;
         double dx = (xk - xp) / (double)n;
